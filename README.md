@@ -1,14 +1,15 @@
-Insights Data Challenge
+Insights Data Challenge: Winter, 2020
 
-Pre-requisites for the code
-. Python3
-. libraries: csv, collections
+To run this program:
+- Install Python3
+- Install Two libraries: csv, collections
 
 Steps to run the program:
-. From the project's source folder, run the python file named "border_analytics.py"
+- From the source folder of the project, run the python file named "border_analytics.py"
 
-Result in available in output directory in the same repository after you run the program with different input it gets updated.
+Output file named result.csv is writted to the folder output
 
-Tests have been included in the test suite. This suite covers 7 scenarios including all the border cases and general cases
+Tests have been included in the test suite. This suite covers 3 scenarios including most of the border and general cases
 
 Code has exclusive inline comments and its self explanatory.
+
