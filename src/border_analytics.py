@@ -13,7 +13,7 @@ class Border_analytics:
         pair.
         :return: None
         """
-        print('Summing the items')
+        print('Summing the items Initiated')
         for timestamp, border_measures in self.report_dict.items():
             for border_measure, attributes in border_measures.items():
                 attributes['sum'] = 0
@@ -28,7 +28,7 @@ class Border_analytics:
         self.report_dict = OrderedDict(sorted(self.report_dict.items(), key=lambda x: x[0], reverse=True))
         date_list = list(self.report_dict.keys())[::-1]
 
-        print('Calculating the running total')
+        print('Calculating the running total Initiated')
         running_total_dict = dict()
         for date in date_list:
             for border_measure, attributes in self.report_dict[date].items():
